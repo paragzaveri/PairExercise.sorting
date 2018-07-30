@@ -12,6 +12,6 @@ describe('Bubble Sort', function(){
     expect( bubbleSort([]) ).toEqual( [] );
   });
   it('handles a numerical array', function(){
-    expect( bubbleSort[4,2,7,3,9,5] ).toEqual( [2,3,4,5,7,9] );
+    expect( bubbleSort([4,2,7,3,9,5]) ).toEqual( [2,3,4,5,7,9] );
   });
 });
